@@ -1,4 +1,4 @@
-# Windows
+# # #  W i n d o w s  # # #
 *.user
 *.log
 *.tlog
@@ -21,7 +21,7 @@ vs2010/LIB_OpenCL_Debug/*
 
 
 
-# Linux
+# # #  L i n u x  # # #
 # ignore local configuration
 config.*
 config/*
@@ -63,3 +63,39 @@ training/wordlist2dawg
 *.cube.*
 *.tesseract_cube.*
 *.traineddata
+
+# # #  O S X  # # #
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Other
+DerivedData/
+build/
+*~.nib
+xcuserdata/
+*.moved-aside
+
+
